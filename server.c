@@ -37,7 +37,7 @@ int main(int argc, char **argv)
 void *assign(void* sockId)
 {
 	int sock_client =*(int*)sockId;
-	printf("connect successed\n");
+	printf("client connected\n");
 
 	//receive cmd and pid, then find answer and respond
 	char cmd[4],pid[8];

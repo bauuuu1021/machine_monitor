@@ -8,7 +8,7 @@ SERVER= server
 CLIENT= client
 TARGET_SERVER= server.c
 TARGET_CLIENT= client.c
-GIT_HOOKS := .git/hooks/pre-commit
+GIT_HOOKS := .git/hooks/pre-commit.sample
 EXEC= target
 
 .PHONY: all
